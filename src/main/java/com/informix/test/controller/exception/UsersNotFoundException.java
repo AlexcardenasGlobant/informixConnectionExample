@@ -1,4 +1,4 @@
-package com.informix.test.exception;
+package com.informix.test.controller.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
