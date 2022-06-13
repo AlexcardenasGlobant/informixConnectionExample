@@ -23,13 +23,13 @@ public class UserController {
     private UserService userService;
 
     @GetMapping
-    public List<UserDAO> findAll() throws SQLException {
-        return userService.findAll();
+    public ResponseEntity<List<UserDAO>> findAll() throws SQLException {
+        return new ResponseEntity<>(userService.findAll(), HttpStatus.FOUND);
     }
 
     @GetMapping("/findById")
-    public UserDAO findById(@RequestParam Long id) throws SQLException {
-        return userService.findById(id);
+    public ResponseEntity<UserDAO> findById(@RequestParam Long id) throws SQLException {
+        return new ResponseEntity<>(userService.findById(id), HttpStatus.FOUND);
     }
 
     @PostMapping
