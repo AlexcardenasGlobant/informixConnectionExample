@@ -1,6 +1,6 @@
 package com.informix.test.service;
 
-import com.informix.test.ConnectionConfig;
+import com.informix.test.config.ConnectionConfig;
 import com.informix.test.model.domain.UserDAO;
 import com.informix.test.util.TemplateResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;

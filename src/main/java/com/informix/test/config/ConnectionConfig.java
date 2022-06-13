@@ -1,4 +1,4 @@
-package com.informix.test;
+package com.informix.test.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;

@@ -1,6 +1,6 @@
 package com.informix.test.controller;
 
-import com.informix.test.ConnectionConfig;
+import com.informix.test.config.ConnectionConfig;
 import com.informix.test.model.domain.UserDAO;
 import com.informix.test.service.UserService;
 import com.informix.test.util.TemplateResponseUtil;
